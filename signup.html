@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+	<title>Sign Up</title>
+	<style>
+	body{
+			/*background-color: #d47a39;*/
+			background:url("https://free4kwallpapers.com/uploads/originals/2016/05/11/street-texture-wallpaper.jpg")center center/cover no-repeat;
+			background-attachment: fixed;
+			max-width: 80%;
+			margin:0px auto;
+			color:white;
+			font-size: 20px;
+		}
+		div{
+			width:500px;
+			margin:0px auto;
+			padding:30px;
+			margin-top: 20px;
+			border:2px solid #b48484;
+		}
+		
+		a{
+			color: white;
+			float:right;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<form action="index.html" method="GET">
+		<label>Username</label><br>
+		<input class="form-control" type="text" placeholder="Username" required="true"><br>
+		<label>Email ID</label><br>
+		<input class="form-control" type="Email" placeholder="Email" required="true"><br>
+		<label>Mobile No</label><br>
+		<input type="text" class="form-control" placeholder="Mobile No" maxlength="10" required="true"><br>
+		<label>Gender</label><br>
+		<input type="radio"  value="male" name="gender">Male</input>
+		<input type="radio" value="female" name="gender">Female</input>
+		<input type="radio" value="others" name="gender">Others</input><br>
+		<label>DOB</label><br>
+		<input type="date" class="form-control" required="true"><br>
+		<label>Password</label><br>
+		<input type="Password" required="true" class="form-control" placeholder="Password"><br>
+		<label>Confirm Password</label><br>
+		<input type="Password" required="true" class="form-control" placeholder="Retype Password"><br>
+		<button type="submit" class="btn btn-info">Sign Up</button>
+	</form>
+</div>
+</body>
+</html>
